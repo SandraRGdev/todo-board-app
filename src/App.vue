@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, onUnmounted, reactive, ref } from 'vue'
 import { supabase } from './lib/supabase'
+import todoShowcaseImage from '../docs/img/todoimg.jpeg'
 
 const authMode = ref('login')
 const session = ref(null)
@@ -410,12 +411,7 @@ onUnmounted(() => {
             Crea tareas, prioriza lo importante y sigue tu progreso en un espacio
             privado pensado para trabajar sin friccion.
           </p>
-          <div class="showcase-mini-board">
-            <div class="mini-column lilac"></div>
-            <div class="mini-column blue"></div>
-            <div class="mini-column gold"></div>
-            <div class="mini-column coral"></div>
-          </div>
+          <img class="auth-showcase-image" :src="todoShowcaseImage" alt="Vista previa del tablero to-do" />
         </div>
       </div>
 

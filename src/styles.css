@@ -116,33 +116,14 @@ button {
   line-height: 0.98;
 }
 
-.showcase-mini-board {
+.auth-showcase-image {
+  display: block;
+  width: 100%;
   margin-top: 32px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-}
-
-.mini-column {
-  min-height: 290px;
-  border-radius: 26px;
+  border-radius: 28px;
   border: 1px solid rgba(103, 123, 151, 0.12);
-}
-
-.mini-column.lilac {
-  background: linear-gradient(180deg, #e7ddff 0%, #d8c9fb 100%);
-}
-
-.mini-column.blue {
-  background: linear-gradient(180deg, #dbecff 0%, #c8def8 100%);
-}
-
-.mini-column.gold {
-  background: linear-gradient(180deg, #fff0d2 0%, #f4dfb0 100%);
-}
-
-.mini-column.coral {
-  background: linear-gradient(180deg, #ffdcdc 0%, #f7c8c8 100%);
+  box-shadow: 0 24px 60px rgba(38, 58, 88, 0.14);
+  object-fit: cover;
 }
 
 .auth-tabs {
@@ -641,7 +622,6 @@ textarea:focus {
     padding-top: 8px;
   }
 
-  .showcase-mini-board,
   .board-scroll,
   .field-row {
     grid-template-columns: 1fr;
