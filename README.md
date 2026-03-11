@@ -56,8 +56,8 @@ Notas:
 
 - [src/App.vue](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/src/App.vue): UI principal, auth y CRUD
 - [src/lib/supabase.js](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/src/lib/supabase.js): cliente de Supabase
-- [supabase/migrations/20260311100500_p4_todos_init.sql](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/supabase/migrations/20260311100500_p4_todos_init.sql): tabla `todos`, indices y RLS
-- [docs/p4/README.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/p4/README.md): documentacion funcional y operativa
+- [supabase/migrations/20260311100500_todos_init.sql](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/supabase/migrations/20260311100500_todos_init.sql): tabla `todos`, indices y RLS
+- [docs/product/README.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/README.md): documentacion funcional y operativa
 
 ## Seguridad
 
@@ -68,10 +68,10 @@ Notas:
 ## Documentacion para usuarios y colaboradores
 
 - [docs/USER_GUIDE.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/USER_GUIDE.md)
-- [docs/p4/scope.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/p4/scope.md)
-- [docs/p4/data_model.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/p4/data_model.md)
-- [docs/p4/security_rls.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/p4/security_rls.md)
-- [docs/p4/06-deploy-checklist.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/p4/06-deploy-checklist.md)
+- [docs/product/scope.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/scope.md)
+- [docs/product/data_model.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/data_model.md)
+- [docs/product/security_rls.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/security_rls.md)
+- [docs/product/06-deploy-checklist.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/06-deploy-checklist.md)
 
 ## Estado de version
 
