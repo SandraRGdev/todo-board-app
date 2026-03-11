@@ -1,6 +1,6 @@
 # To-Do Board App
 
-Aplicacion MVP de gestion de tareas construida con Vue 3, Supabase y Vercel.
+Aplicacion MVP de gestion de tareas construida con Vue 3, Supabase y Docker sobre VPS.
 
 ## Stack
 
@@ -8,7 +8,7 @@ Aplicacion MVP de gestion de tareas construida con Vue 3, Supabase y Vercel.
 - Supabase Auth
 - Supabase Postgres
 - Row Level Security
-- Vercel para despliegue
+- Docker + Nginx para despliegue
 
 ## Funcionalidades
 
@@ -52,6 +52,10 @@ Notas:
 - `npm run build`
 - `npm run preview`
 
+## Despliegue en VPS
+
+- [docs/DEPLOY_DOCKPLOY.md](./docs/DEPLOY_DOCKPLOY.md)
+
 ## Estructura principal
 
 - [src/App.vue](./src/App.vue): UI principal, auth y CRUD
@@ -68,6 +72,7 @@ Notas:
 ## Documentacion para usuarios y colaboradores
 
 - [docs/USER_GUIDE.md](./docs/USER_GUIDE.md)
+- [docs/DEPLOY_DOCKPLOY.md](./docs/DEPLOY_DOCKPLOY.md)
 - [docs/product/scope.md](./docs/product/scope.md)
 - [docs/product/data_model.md](./docs/product/data_model.md)
 - [docs/product/security_rls.md](./docs/product/security_rls.md)
