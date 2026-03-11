@@ -10,7 +10,7 @@ La app es un frontend estatico:
 
 - se construye con `npm run build`
 - se sirve con Nginx
-- usa variables `VITE_...` en fase de build
+- puede leer variables `VITE_...` en runtime desde el contenedor
 
 Por eso, en Dockploy conviene desplegarla desde `Dockerfile`, no como proceso Node persistente.
 
@@ -33,6 +33,7 @@ Notas:
 - `VITE_SUPABASE_PUBLISHABLE_KEY` es la preferida.
 - `VITE_SUPABASE_ANON_KEY` se mantiene por compatibilidad.
 - No cargues `SUPABASE_SERVICE_ROLE_KEY`.
+- Tras cambiar variables, haz `redeploy` con rebuild del contenedor.
 
 ## Configuracion recomendada en Dockploy
 

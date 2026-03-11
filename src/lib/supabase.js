@@ -1,7 +1,12 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
+const runtimeConfig = window.__APP_CONFIG__ || {}
+
+const supabaseUrl =
+  runtimeConfig.VITE_SUPABASE_URL || import.meta.env.VITE_SUPABASE_URL
 const supabaseKey =
+  runtimeConfig.VITE_SUPABASE_PUBLISHABLE_KEY ||
+  runtimeConfig.VITE_SUPABASE_ANON_KEY ||
   import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY ||
   import.meta.env.VITE_SUPABASE_ANON_KEY
 
