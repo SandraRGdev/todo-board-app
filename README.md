@@ -1,4 +1,4 @@
-# P4 To-Do App
+# To-Do Board App
 
 Aplicacion MVP de gestion de tareas construida con Vue 3, Supabase y Vercel.
 

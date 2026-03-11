@@ -1,6 +1,6 @@
-# P4 README
+# README de producto
 
-Proyecto P4: To-Do App MVP con Vue 3 en frontend, Supabase para Auth y Postgres, y despliegue en Vercel.
+To-Do App MVP con Vue 3 en frontend, Supabase para Auth y Postgres, y despliegue en Vercel.
 
 Este README esta orientado a operacion de proyecto: configuracion de entorno, validacion de seguridad con RLS, despliegue y troubleshooting.
 

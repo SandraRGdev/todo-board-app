@@ -1,8 +1,8 @@
 # Guia de uso
 
-## Que es P4 To-Do App
+## Que es To-Do Board App
 
-P4 es una aplicacion de tareas personales con tablero visual. Cada usuario ve solo sus propios datos.
+To-Do Board App es una aplicacion de tareas personales con tablero visual. Cada usuario ve solo sus propios datos.
 
 ## Que puede hacer un usuario
 
