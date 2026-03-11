@@ -72,5 +72,5 @@ To-Do Board App es una aplicacion de tareas personales con tablero visual. Cada 
 
 Para configuracion, despliegue o seguridad, consulta:
 
-- [README.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/README.md)
-- [docs/product/README.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/README.md)
+- [README.md](../README.md)
+- [docs/product/README.md](./product/README.md)

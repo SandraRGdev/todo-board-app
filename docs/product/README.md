@@ -86,8 +86,8 @@ Confirmar que cada usuario solo puede operar sobre sus propias filas en `public.
 
 Documentacion relacionada:
 
-- [security_rls.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/security_rls.md)
-- [data_model.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/data_model.md)
+- [security_rls.md](./security_rls.md)
+- [data_model.md](./data_model.md)
 
 ## Deploy en Vercel
 
@@ -164,9 +164,9 @@ Documentacion relacionada:
 
 ## Documentos de soporte
 
-- [scope.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/scope.md)
-- [integration_plan.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/integration_plan.md)
-- [05-integration-plan.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/05-integration-plan.md)
-- [06-deploy-checklist.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/06-deploy-checklist.md)
-- [security_rls.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/security_rls.md)
-- [data_model.md](/Users/sandra/Documents/CodeIA/Clases/Clase%209%20-%20To-do/docs/product/data_model.md)
+- [scope.md](./scope.md)
+- [integration_plan.md](./integration_plan.md)
+- [05-integration-plan.md](./05-integration-plan.md)
+- [06-deploy-checklist.md](./06-deploy-checklist.md)
+- [security_rls.md](./security_rls.md)
+- [data_model.md](./data_model.md)
